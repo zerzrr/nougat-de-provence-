@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Catalogue — LE NOUGAT DE PROVENCE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="/"><span class="brand-dot"></span>LE NOUGAT DE PROVENCE</a>
+  <button class="menu-btn">☰</button>
+  <nav><a href="/">Accueil</a><a href="/#savoir-faire">Savoir-faire</a><a class="active" href="/catalogue.html">Catalogue</a></nav>
+</header>
+<main class="catalogue-page">
+  <section class="catalogue-hero"><p class="eyebrow">COLLECTION</p><h1>Nos <em>nougats.</em></h1><p>Une sélection de créations gourmandes à découvrir.</p></section>
+  <section class="filters"><input id="search" placeholder="Rechercher un nougat…"><div id="count"></div></section>
+  <section id="catalogue" class="grid"></section>
+</main>
+<div id="modal" class="modal"><button class="close">×</button><div id="modalBody"></div></div>
+<footer><span>LE NOUGAT DE PROVENCE</span><span>Catalogue de présentation • Aucun achat en ligne</span></footer>
+<script src="/catalogue.js"></script>
+</body>
+</html>
